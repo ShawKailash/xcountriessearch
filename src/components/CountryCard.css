@@ -1,0 +1,26 @@
+
+.countryCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(199, 195, 195);
+    border-radius: 5px;
+    margin: 5px;
+    padding: 10px;
+    width: 175px;
+    height: 150px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .countryCard img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+  }
+  
+  .countryCard h2 {
+    font-size: 16px;
+    margin: 0;
+  }

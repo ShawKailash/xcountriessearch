@@ -1,0 +1,17 @@
+/* Center the search box inside its container */
+.search-container {
+    display: flex; /* Enable flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    margin: 20px;
+    height: 100px; /* Optional: Adjust height to fit the search box */
+  }
+  
+  /* Style for the search input box */
+  .search-input {
+    padding: 10px;
+    width: 80%; /* Adjust width as needed */
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+  }
